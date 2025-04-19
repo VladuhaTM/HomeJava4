@@ -9,4 +9,6 @@ module java{
     exports task3;
     opens task4 to javafx.fxml;
     exports task4;
+    opens task5 to javafx.fxml;
+    exports task5;
 }
