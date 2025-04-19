@@ -1,10 +1,8 @@
-module java {
+module org.example.home4new {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens task1and2 to javafx.fxml;
-    exports task1and2;
-    opens task3 to javafx.fxml;
-    exports task3;
+    opens org.example.home4new to javafx.fxml;
+    exports org.example.home4new;
 }
